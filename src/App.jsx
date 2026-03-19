@@ -25,7 +25,7 @@ function App() {
 
 <br />
 
-<button onClick={()=>setCount(count - 1)} className='bg-red-500 p-2 rounded-xl my-3 '>Discrease</button>
+<button onClick={()=>setCount(count - 1)} className='bg-red-500 p-2 rounded-xl my-3 '>Decrease</button>
 
 <br />
 
