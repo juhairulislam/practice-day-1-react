@@ -21,7 +21,7 @@ function App() {
 <button className='my-4 text-4xl'>{count}</button>
 <br />
 
-<button className='bg-green-500 rounded-xl p-2 ' onClick={()=>countHandler(count)}>Increase</button>
+<button className='bg-green-500 rounded-xl p-2 ' onClick={countHandler}>Increase</button>
 
 <br />
 
