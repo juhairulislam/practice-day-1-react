@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <h1 className='text-2xl text-blue-500'>Hello world</h1>
+<h1 className='text-5xl w-fit bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent'>Hello World</h1>
 
     <div className="navbar bg-base-100 shadow-sm">
   <div className="flex-1">
