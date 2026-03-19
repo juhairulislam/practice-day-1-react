@@ -1,16 +1,28 @@
-# React + Vite
+# I Practice here React basics :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Feature:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Text in gradient Color.
+* Count doun by pressing Increase and decrease .
+* Count reset by press Reset Button.
+* Toggling Turn On and of and show dynamically On and Off
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## I learn Here:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* How gradient color use in text.
+  ### Example:
+  ```jsx
+  <h1 className='text-5xl w-fit bg-gradient-to-r from-cyan-500  to-blue-500 bg-clip-text text-transparent mx-auto'>Understand useState()</h1>
+  ```
+* How useState() function .
+
+### Shocking learn:
+
+* Without use w-fit (tailwindCSS) gradient color doesn't used , because without setting width element take full with in backround and color fill there
+
+  
+
+
