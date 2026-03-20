@@ -16,7 +16,7 @@
 * 'active' class use (tailwind) . it use change something for clicking element 
   ### Example:
   ```jsx
-  <h1 className='text-5xl w-fit bg-gradient-to-r from-cyan-500  to-blue-500 bg-clip-text text-transparent mx-auto'>Understand useState()</h1>
+  <h1 className='text-5xl w-fit bg-gradient-to-r from-cyan-500  to-blue-500 bg-clip-text text-transparent mx-auto active:bg-green-700'>Understand useState()</h1>
   ```
 * How useState() function .
 
