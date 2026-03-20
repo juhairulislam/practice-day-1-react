@@ -21,21 +21,21 @@ function App() {
 <button className='my-4 text-4xl'>{count}</button>
 <br />
 
-<button className='bg-green-500 rounded-xl p-2 ' onClick={countHandler}>Increase</button>
+<button className='bg-green-500 rounded-xl p-2 active:bg-green-700' onClick={countHandler}>Increase</button>
 
 <br />
 
-<button onClick={()=>setCount(count - 1)} className='bg-red-500 p-2 rounded-xl my-3 '>Decrease</button>
+<button onClick={()=>setCount(count - 1)} className='bg-red-500 p-2 rounded-xl my-3 active:bg-red-700'>Decrease</button>
 
 <br />
 
-<button className='bg-purple-500 p-2 rounded-xl ' onClick={()=>setCount(0)}>Reset</button>
+<button className='bg-purple-500 p-2 rounded-xl active:bg-purple-700' onClick={()=>setCount(0)}>Reset</button>
 </div>
 
 
 <div className='text-center'>
 
-  <button className='bg-blue-500 p-2 rounded-md  my-5' onClick={()=>setIsOn(!isOn)}>
+  <button className='bg-blue-500 p-2 rounded-md  my-5 active:bg-blue-700' onClick={()=>setIsOn(!isOn)}>
     {isOn?'Turn On':'Turn Off'}
     
 
